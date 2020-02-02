@@ -1,0 +1,18 @@
+.logo {
+	max-height: 3rem;
+	max-width: 10rem;
+	margin-top: -10px;
+}
+
+/* tombol */
+
+.tombol {
+	width: 100%;
+}
+
+/* desktop */
+@media (min-width: 992px) {
+	.tombol {
+		border-radius: 40px !important;
+	}
+}

@@ -1,43 +1,57 @@
-<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100">
-    <div class="container">
-        <div class="navbar-translate">
-            <a class="navbar-brand" href="<?= base_url(); ?>">
-                <img src="<?= base_url('assets'); ?>/img/fixlogo.png" class="logo" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
+<!-- navbar -->
+<!-- dropdown -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="<?= base_url('homepage/superchamp'); ?>">English Now Super Camp</a></li>
+    <li><a href="#!">Online Class</a></li>
+    <li><a href="#!">English Now Community</a></li>
+    <li><a href="#!">One Day English Training</a></li>
+    <li><a href="#!">Corporate Training</a></li>
+    <li><a href="#!">Seminar/Workshop</a></li>
+</ul>
 
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-triger" href="#about">About
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-triger" href="#gallery">Gallery
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">News
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Ebook
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Our Clients
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <button class="btn btn-primary tombol" id="tombol">Join Us</button>
-                </li>
-            </ul>
+<!-- sidenav -->
+<ul id="mobile-nav" class="sidenav">
+    <li><a href="<?= base_url('homepage/about'); ?>" class="black-text">About Us</a></li>
+    <li class="drop">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="<?= base_url('homepage/superchamp'); ?>">English Now Super Camp</a></li>
+                        <li><a href="#!">Online Class</a></li>
+                        <li><a href="#!">English Now Community</a></li>
+                        <li><a href="#!">One Day English Training</a></li>
+                        <li><a href="#!">Corporate Training</a></li>
+                        <li><a href="#!">Seminar/Workshop</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#" class="black-text">Ebook</a></li>
+    <li><a href="#" class="black-text">Blog</a></li>
+    <li><a href="#" class="btn tombol" type="button">Join Us</a></li>
+</ul>
+<!-- end sidenav -->
+<div id="tambah">
+    <nav class="white">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="<?= base_url(); ?>" class="brand-logo"><img class="logo" src="<?= base_url('assets'); ?>/img/fixlogo.png" alt="logo" /></a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger
+                        indigo-text darken-4"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="<?= base_url('homepage/about'); ?>" class="black-text">About Us</a></li>
+                    <li><a class="dropdown-trigger black-text" href="" data-target="dropdown1">Our Programs<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#" class="black-text">Ebook</a></li>
+                    <li><a href="#" class="black-text">Blog</a></li>
+                    <li><a href="#" class="btn tombol" type="button">Join Us</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
+
+
+<!-- end navbar -->

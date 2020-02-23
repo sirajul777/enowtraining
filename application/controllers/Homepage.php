@@ -27,9 +27,20 @@ class Homepage extends CI_Controller
         $this->load->view('template/foot');
         $this->load->view('template/footer');
     }
-    public function home()
+    public function about()
     {
         $this->load->view('template/header');
-        $this->load->view('homepage/home');
+        $this->load->view('template/navbar');
+        $this->load->view('homepage/about');
+        $this->load->view('template/foot');
+        $this->load->view('template/footer');
+    }
+    public function superchamp()
+    {
+        $this->load->view('template/header');
+        $this->load->view('template/navbar');
+        $this->load->view('homepage/superchamp');
+        $this->load->view('template/foot');
+        $this->load->view('template/footer');
     }
 }

@@ -13,27 +13,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="<?= base_url('assets/'); ?>css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="<?= base_url('assets/'); ?>css/enow.css" media="screen,projection" />
 
-
-    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
-
-
-    <!-- fonts google -->
-    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-
-
-    <!-- Bootstrap CSS -->
-
-    <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/bootstrap-grid.css">
-    <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/bootstrap-reboot.css">
-    <!-- <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/bootstrap.css"> -->
-    <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/englishnow.css">
-    <link href="<?= base_url('assets/'); ?>css/material-kit.css" rel="stylesheet" />
-    <link href="<?= base_url('assets/'); ?>demo/demo.css" rel="stylesheet" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>English Now</title>
 </head>

@@ -1,12 +1,12 @@
 <!-- navbar -->
 <!-- dropdown -->
 <ul id="dropdown1" class="dropdown-content">
-    <li><a href="<?= base_url('superchamp'); ?>">English Now Super Camp</a></li>
-    <li><a href="#!">Online Class</a></li>
-    <li><a href="#!">English Now Community</a></li>
-    <li><a href="#!">One Day English Training</a></li>
-    <li><a href="#!">Corporate Training</a></li>
-    <li><a href="#!">Seminar/Workshop</a></li>
+    <li class="nav-item"><a href="<?= base_url('superchamp'); ?>">English Now Super Camp</a></li>
+    <li class="nav-item"><a href="#!">Online Class</a></li>
+    <li class="nav-item"><a href="#!">English Now Community</a></li>
+    <li class="nav-item"><a href="#!">One Day English Training</a></li>
+    <li class="nav-item"><a href="#!">Corporate Training</a></li>
+    <li class="nav-item"><a href="#!">Seminar/Workshop</a></li>
 </ul>
 
 <!-- sidenav -->

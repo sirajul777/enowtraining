@@ -1,17 +1,15 @@
 <!-- superchamp -->
 <div class="superchamp">
     <div class="container">
+        <div class="center h-supercamp">
+            <h>English Now Super Camp</h>
+        </div>
         <div class="row">
-            <div class="col s12 m12 l12 center">
-                <h class="h-super">English Now Super Champ</h>
+            <div class="video-center">
+                <div class="video-container">
+                    <iframe class="mini-video" src="https://www.youtube.com/watch?v=YGpvJmL-2aU&list=RDMMEv_-gOW-gMo&index=3" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <div class="video-container">
-                <iframe width="853" height="480" src="https://youtu.be/yVI_BudN7fc" frameborder="0" allowfullscreen></iframe>
-            </div>
-
 
             <div class="col s12 m12">
                 <p class="p-about">English Now Super Camp adalah program super intensif pelatihan Bahasa Inggris,

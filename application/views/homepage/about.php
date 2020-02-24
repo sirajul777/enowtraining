@@ -1,18 +1,8 @@
-<!-- ads slider -->
-<div class="slider">
-  <ul class="slides">
-    <li>
-      <img class=".d-block  i-slide" src="<?= base_url('assets/'); ?>img/baner.png"> <!-- random image -->
-    </li>
-    <li>
-      <img class=".d-block  i-slide" src="<?= base_url('assets/'); ?>img/ss2.jpg"> <!-- random image -->
-    </li>
-    <li>
-      <img class=".d-block  i-slide" src="<?= base_url('assets/'); ?>img/ss3.jpg"> <!-- random image -->
-    </li>
-  </ul>
+<!-- ads image -->
+<div class="row">
+  <img class=".d-block  i-slide" src="<?= base_url('assets/'); ?>img/baner.png">
 </div>
-<!-- end ads slider -->
+<!-- end ads image -->
 
 
 

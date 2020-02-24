@@ -18,11 +18,11 @@
             <div class="col s12 m4">
                 <p class="follow">Follow us on :</p>
                 <div class="icon">
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-facebook-square"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/englishnowtrainingcentre/" target="_blank"><i class=" fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/englishnowtrainingcentre/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.youtube.com/channel/UCblvxwNRKxciMfeaCpkEyuQ" target="_blank"><i class="fab fa-youtube"></i></a>
                 </div>
-                <div class="copyright float-right">
+                <div class="copyright">
                     &copy;
                     <a href="<?= base_url(); ?>">EnglishNow 2020</a>
 

@@ -25,17 +25,17 @@
                     dan langsung bisa Anda praktekkan</p>
             </div>
             <div class="col s12 m4">
-                <img class="responsive-img center" src="<?= base_url('assets/'); ?>img/dien2.png" alt="">
+                <img class="responsive-img center i-baner" src="<?= base_url('assets/'); ?>img/dien2.png" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col s12 m5">
-                <img class="responsive-img center" src="<?= base_url('assets/'); ?>img/dien1.png">
+                <img class="responsive-img center i-baner" src="<?= base_url('assets/'); ?>img/dien1.png">
             </div>
             <div class="col s12 m7">
-                <p class="flow-text center h-baner" id="p-2">Belajar bahasa inggris
-                    lebih cepat, mudah,
-                    dan langsung bisa Anda praktekkan</p>
+                <p class="flow-text center h-baner" id="p-2">Tersedia berbagai program
+                    pembelajaran yang dapat Anda
+                    pilih sesuai kebutuhan Anda</p>
             </div>
         </div>
     </div>
@@ -58,7 +58,7 @@
                     Inggris dalam waktu cepat dengan metode pembelajaran yang asik dan
                     menyenangkan, namun tetap tertarget tentunya.
                 </p>
-                <a href="" class="btn tombol2 center" id="tombolM">More</a>
+                <a href="" class="btn tombol2 center" id="tombolM">Selengkapnya</a>
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@
                     dilengkapi pula dengan latihan untuk menguji kemampuan Anda. Anda
                     juga dapat berkonsultasi jika menemukan kesulitan selama belajar.
                 </p>
-                <a href="" class="btn tombol3" id="tombolR">Register Now</a>
+                <a href="" class="btn tombol3" id="tombolR">Daftar Sekarang</a>
             </div>
             <div class="col s12 m5">
                 <img class="i-class" src="<?= base_url('assets/'); ?>img/a2.png" alt="" />
@@ -93,7 +93,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12 m5">
-                <img class="i-super" src="<?= base_url('assets/'); ?>img/a.png" alt="" />
+                <img class="i-super" src="<?= base_url('assets/'); ?>img/7.png" alt="" />
             </div>
             <div class="col s12 m7">
                 <h1 class="h-super">English Now Community</h1>
@@ -107,7 +107,7 @@
                     melalui seminar atau workshop yang akan kami
                     selenggarakan untuk Anda.
                 </p>
-                <a href="" class="btn tombol4 text-center">Join Community</a>
+                <a href="" class="btn tombol4 text-center">Masuk Komunitas</a>
             </div>
         </div>
     </div>
@@ -150,27 +150,20 @@
             <h3 class="h-client center">
                 Our Clients
             </h3>
-            <div class="row">
-                <div class="col s12 m3 center">
-                    <a href="">
-                        <img class="i-client" src="<?= base_url('assets/'); ?>img/client1.png" alt="pengayoman">
-                    </a>
-                </div>
-                <div class="col s12 m3 center">
-                    <a href="">
-                        <img class="i-client" src="<?= base_url('assets/'); ?>img/client3.png" alt="kementerian pemuda dan olahraga">
-                    </a>
-                </div>
-                <div class="col s12 m3 center">
-                    <a href="">
-                        <img class="i-client" src="<?= base_url('assets/'); ?>img/client4.png" alt="">
-                    </a>
-                </div>
-                <div class="col s12 m3 center">
-                    <a href="">
-                        <img class="i-client" src="<?= base_url('assets/'); ?>img/client2.png" alt="kimia farma">
-                    </a>
-                </div>
+            <div class="row card-client">
+                <a href="" class="a-client">
+                    <img class="i-client" src="<?= base_url('assets/'); ?>img/client1.png" alt="pengayoman">
+                </a>
+                <a href="" class="a-client">
+                    <img class="i-client" src="<?= base_url('assets/'); ?>img/client3.png" alt="kementerian pemuda dan olahraga">
+                </a>
+                <a href="" class="a-client">
+                    <img class="i-client" src="<?= base_url('assets/'); ?>img/client4.png" alt="">
+                </a>
+                <a href="" class="a-client">
+                    <img class="i-client" src="<?= base_url('assets/'); ?>img/client2.png" alt="kimia farma">
+                </a>
+
             </div>
         </div>
 </section>

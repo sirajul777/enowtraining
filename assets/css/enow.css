@@ -7,12 +7,9 @@
 }
 
 /* nav center on smartphone */
-.dropdown-content li a {
-	color: #000;
-}
-
-.nav-item li:hover {
-	color: #599bdf;
+.dropdown-content li>a,
+.dropdown-content li>span {
+	color: #000 !important;
 }
 
 

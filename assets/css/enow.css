@@ -70,9 +70,20 @@
 	color: #599bdf !important;
 }
 
+.btn.tombol5 {
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	display: block;
+	background-color: #599bdf !important;
+	border-radius: 18px;
+	max-width: 400px;
+}
+
 .tombol2,
 .tombol3,
-.tombol4 {
+.tombol4,
+.tombol5 {
 	font-family: "Nunito", sans-serif;
 	font-weight: 800;
 	margin-bottom: 20px;
@@ -90,14 +101,29 @@ nav {
 	color: #4CAF50;
 }
 
+.fa-check {
+	color: #FAE175;
+	font-size: 25px;
+	position: absolute;
+}
+
 .h-about,
 .h-supercamp {
-	font-family: "Nunito",
-		sans-serif;
 	font-size: 28px;
 	color: #000;
 	font-weight: 700;
 	padding: 40px;
+}
+
+.h-community {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.p-community {
+	font-size: 25px;
+	text-align: left;
 }
 
 
@@ -110,13 +136,26 @@ nav {
 	padding: 10px 5px;
 }
 
+.h-collect {
+	color: #fff;
+	font-weight: 800;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+.p-collect {
+	color: #fff;
+	font-size: 20px;
+	position: relative;
+	margin-left: 35px;
+}
+
+
 .flow-text {
 	margin-top: 10px;
 }
 
 .h-baner {
-	font-family: "Nunito", sans-serif;
-	font-size: 20px;
 	color: #000;
 	font-weight: 700;
 	padding: 40px;
@@ -130,12 +169,41 @@ nav {
 
 .h-client,
 .h-about,
+.h-supercamp,
 .h-baner,
 .h-super,
 .h-class,
-.h-contact {
+.h-contact,
+.h-community,
+.p-community,
+.h-collect,
+.p-collect,
+.h-feedback,
+.p-feedback,
+.h-quots {
 	font-family: "Nunito",
 		sans-serif;
+}
+
+.h-feedback {
+	font-weight: 800;
+}
+
+.p-feedback {
+	font-size: 20px;
+	position: relative;
+	margin-left: 55px;
+	padding: 5px;
+}
+
+.p-feedback span {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.h-quots {
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
 .h-super {
@@ -220,6 +288,13 @@ img {
 	border-style: none;
 }
 
+.img-feedback {
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+	margin-top: 5px;
+}
+
 .i-slide {
 	float: left;
 	width: 100% !important;
@@ -277,8 +352,13 @@ img {
 	max-width: 80% !important;
 }
 
-.superCamp {
+.superCamp,
+.collect {
 	background-color: #6692bf;
+}
+
+.card.card-collect {
+	background-color: #478DD4;
 }
 
 .quots p {
@@ -319,6 +399,9 @@ footer {
 	margin-top: 35%;
 }
 
+.dasar {
+	background-color: #6692BF;
+}
 
 
 
@@ -637,6 +720,12 @@ footer {
 	.h-about,
 	.h-supercamp {
 		font-size: 38px;
+	}
+
+	.p-community {
+		font-size: 25px;
+		line-height: 40px;
+		text-align: justify;
 	}
 
 	.video-center {

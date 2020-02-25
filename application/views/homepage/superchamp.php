@@ -7,7 +7,7 @@
         <div class="row">
             <div class="video-center">
                 <div class="video-container">
-                    <iframe class="mini-video" src="https://www.youtube.com/watch?v=YGpvJmL-2aU&list=RDMMEv_-gOW-gMo&index=3" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="mini-video" src=https://youtu.be/Ev_-gOW-gMo?list=RDEv_-gOW-gMo" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -50,10 +50,10 @@
                 <h3 class="h-contact center">Contact Us</h3>
             </div>
             <div class="col s12 center">
-                <a href="https://wa.me/6281316621562"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://wa.me/6281316621562"><img src="<?= base_url('assets/'); ?>img/wa.png"></a>
             </div>
             <div class="col s12 center">
-                <p>Or</p>
+                <p>Atau email dibawah ini</p>
             </div>
         </div>
         <div class="row">

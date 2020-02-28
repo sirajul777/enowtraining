@@ -63,6 +63,17 @@ $(window).resize(function () {
 
 
 $(window).ready(function () {
+	$('.tombol5').on('click', function (e) {
+		var sc = $(this).attr('href');
+		var elementsc = $(sc);
+
+		e.preventDefault();
+		$('html,body').animate({
+			scrollTop: elementsc.offset().top
+		}, 1000);
+	});
+
+
 	if (pasbaner2.matches) {
 		$("#p-1,#p-2,.h-super").css("text-align", "center");
 		$(".h-class,.h-super").css("text-align", "center");
@@ -72,14 +83,3 @@ $(window).ready(function () {
 });
 
 // scroll triger
-$('#daftar_community').on('click', function (e) {
-	var sc = $(this).attr('href');
-	var elementsc = $(sc);
-
-
-	$('html,body').animate({
-		scrollTop: elementsc.offset().top
-	}, 500);
-
-	e.preventDefault();
-});

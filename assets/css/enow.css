@@ -30,8 +30,7 @@
 }
 
 /* ! membuat tombol di tengah */
-.tombol,
-.btn {
+.tombol {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -71,7 +70,7 @@
 .btn.tombol5 {
 	background-color: #599bdf !important;
 	border-radius: 18px;
-	max-width: 400px;
+	width: 400px;
 	margin-top: 40px;
 }
 
@@ -338,6 +337,10 @@ img {
 	height: 50%;
 }
 
+.contact {
+	margin-bottom: 20px;
+}
+
 .quots {
 	background-color: #fae175;
 }
@@ -583,12 +586,7 @@ footer {
 		margin-right: 29% !important;
 	}
 
-	.btn.tombol5 {
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		display: block;
-	}
+
 
 	.btn.tombol {
 		width: 140px;

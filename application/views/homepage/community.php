@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row card-client">
             <div class="col s12 center">
                 <a class="btn tombol5" type="button" href="#daftarcommunity" id="daftar_community">Daftar Sekarang</a>
             </div>
@@ -54,7 +54,6 @@
             <div class="col s12 m6">
                 <div class="dasar">
                     <i class="fas fa-check"></i>
-
                     <p class="p-collect">Anda yang sudah mahir dan ingin terus berlatih Bahasa Inggris bersama pembelajar lainnya.</p>
                 </div>
                 <div class="dasar">
@@ -176,7 +175,9 @@
                         </div>
 
                         <div class="form-controls">
-                            <button class="btn slate kirimemail-btn-submit .tombol">Submit</button>
+                            <button class="btn slate kirimemail-btn-submit tombol">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
                         </div>
                     </form>
 
@@ -186,3 +187,15 @@
     </div>
 </div>
 <!-- end form mail -->
+<section class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h3 class="h-contact center">Contact Us</h3>
+            </div>
+            <div class="col s12 center">
+                <a href="https://wa.me/6281316621562"><img class="responsive-img" src="<?= base_url('assets/'); ?>img/wa.png"></a>
+            </div>
+        </div>
+    </div>
+</section>

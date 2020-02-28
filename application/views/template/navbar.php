@@ -15,7 +15,7 @@
     <li class="drop">
         <ul class="collapsible collapsible-accordion">
             <li>
-                <a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+                <a class="collapsible-header">Our Programs<i class="material-icons right">arrow_drop_down</i></a>
                 <div class="collapsible-body">
                     <ul>
                         <li><a href="<?= base_url('superchamp'); ?>">English Now Super Camp</a></li>

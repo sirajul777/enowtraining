@@ -5,7 +5,7 @@ M.Sidenav.init(sideNav);
 // todo dropdown
 const drop = document.querySelectorAll(".dropdown-trigger");
 M.Dropdown.init(drop, {
-    constrainWidth: false
+	constrainWidth: false
 });
 
 // collaps
@@ -16,8 +16,8 @@ M.Collapsible.init(collaps);
 // ? slider
 const slider = document.querySelectorAll('.slider');
 M.Slider.init(slider, {
-    duration: 300,
-    interval: 3000
+	duration: 300,
+	interval: 3000
 });
 
 
@@ -28,7 +28,7 @@ M.Parallax.init(paralax);
 // ! carousel
 const carousel = document.querySelectorAll('.carousel');
 M.Carousel.init(carousel, {
-    indicators: true
+	indicators: true
 });
 
 // todo materialbox
@@ -47,26 +47,39 @@ const p3 = document.getElementById("p-3");
 const tambah = document.getElementById('tambah');
 
 $(window).resize(function () {
-    if (pasbaner.matches) {
-        p1.style.textAlign = "left";
-        p2.style.textAlign = "right";
-        p3.style.textAlign = "justify";
-        $('#tambah').removeClass('navbar-fixed');
-    } else /*if (pasbaner2.matches) */ {
-        p1.style.textAlign = "center";
-        p2.style.textAlign = "center";
-        $('#tambah').addClass('navbar-fixed');
-    }
+	if (pasbaner.matches) {
+		p1.style.textAlign = "left";
+		p2.style.textAlign = "right";
+		p3.style.textAlign = "justify";
+		$('#tambah').removeClass('navbar-fixed');
+	} else /*if (pasbaner2.matches) */ {
+		p1.style.textAlign = "center";
+		p2.style.textAlign = "center";
+		$('#tambah').addClass('navbar-fixed');
+	}
 });
 
 // size browser
 
 
 $(window).ready(function () {
-    if (pasbaner2.matches) {
-        $("#p-1,#p-2,.h-super").css("text-align", "center");
-        $(".h-class,.h-super").css("text-align", "center");
-        $('#i-2').hide(1000);
-        $('#tambah').addClass('navbar-fixed');
-    }
+	if (pasbaner2.matches) {
+		$("#p-1,#p-2,.h-super").css("text-align", "center");
+		$(".h-class,.h-super").css("text-align", "center");
+		$('#i-2').hide(1000);
+		$('#tambah').addClass('navbar-fixed');
+	}
+});
+
+// scroll triger
+$('#daftar_community').on('click', function (e) {
+	var sc = $(this).attr('href');
+	var elementsc = $(sc);
+
+
+	$('html,body').animate({
+		scrollTop: elementsc.offset().top
+	}, 500);
+
+	e.preventDefault();
 });

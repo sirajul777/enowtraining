@@ -78,6 +78,7 @@
 	background-color: #599bdf !important;
 	border-radius: 18px;
 	max-width: 400px;
+	margin-top: 40px;
 }
 
 .tombol2,
@@ -187,6 +188,7 @@ nav {
 
 .h-feedback {
 	font-weight: 800;
+	font-size: 40px;
 }
 
 .p-feedback {
@@ -203,7 +205,8 @@ nav {
 
 .h-quots {
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 900;
+	font-size: 40px;
 }
 
 .h-super {
@@ -403,6 +406,16 @@ footer {
 	background-color: #6692BF;
 }
 
+
+.kirimemail-form-body {
+	font-family: "Nunito",
+		sans-serif;
+	font-weight: 700;
+	background-color: #3A4260 !important;
+	display: block;
+	color: white;
+	padding: 20px;
+}
 
 
 

@@ -12,7 +12,6 @@
 	color: #000 !important;
 }
 
-
 .dropdown-item {
 	text-align: center !important;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
@@ -39,9 +38,8 @@
 
 /* button on smartphone */
 .btn.tombol {
-	border-radius: 18px;
-	width: 140px;
-	background-color: #599bdf;
+	border-radius: 20px;
+	background-color: #599bdf !important;
 	border-color: #599bdf;
 	color: white !important;
 }
@@ -71,10 +69,6 @@
 }
 
 .btn.tombol5 {
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	display: block;
 	background-color: #599bdf !important;
 	border-radius: 18px;
 	max-width: 400px;
@@ -93,17 +87,16 @@
 /* ! text header and paragraph */
 
 nav {
-	font-family: "Nunito",
-		sans-serif;
+	font-family: "Nunito", sans-serif;
 }
 
 .fa-whatsapp {
 	font-size: 50px;
-	color: #4CAF50;
+	color: #4caf50;
 }
 
 .fa-check {
-	color: #FAE175;
+	color: #fae175;
 	font-size: 25px;
 	position: absolute;
 }
@@ -127,7 +120,6 @@ nav {
 	text-align: left;
 }
 
-
 .p-about {
 	color: #000;
 	font-size: large;
@@ -150,7 +142,6 @@ nav {
 	position: relative;
 	margin-left: 35px;
 }
-
 
 .flow-text {
 	margin-top: 10px;
@@ -181,9 +172,13 @@ nav {
 .p-collect,
 .h-feedback,
 .p-feedback,
-.h-quots {
-	font-family: "Nunito",
-		sans-serif;
+.h-quots,
+.kirimemail-form-headline {
+	font-family: "Nunito", sans-serif;
+}
+
+.kirimemail-form-headline {
+	font-size: 40px;
 }
 
 .h-feedback {
@@ -216,7 +211,6 @@ nav {
 }
 
 .p-super {
-
 	font-size: 25px;
 	font-weight: 200;
 }
@@ -266,9 +260,8 @@ nav {
 	color: #fff;
 	font-size: 25px;
 	margin-right: 1.5rem;
-	margin-top: .625rem;
+	margin-top: 0.625rem;
 	margin-bottom: 1.625rem;
-
 }
 
 .copyright,
@@ -278,7 +271,6 @@ nav {
 }
 
 /* !end  */
-
 
 /* todo image  */
 .d-block {
@@ -321,7 +313,6 @@ img {
 	max-width: 380px;
 	max-height: 330px;
 	margin-bottom: 35px;
-
 }
 
 .i-super,
@@ -348,7 +339,7 @@ img {
 }
 
 .quots {
-	background-color: #FAE175;
+	background-color: #fae175;
 }
 
 .container {
@@ -361,7 +352,7 @@ img {
 }
 
 .card.card-collect {
-	background-color: #478DD4;
+	background-color: #478dd4;
 }
 
 .quots p {
@@ -374,8 +365,8 @@ img {
 .a-client {
 	margin-left: 1.25rem;
 	margin-right: 1.25rem;
-	margin-top: .625rem;
-	margin-bottom: .625rem;
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
 }
 
 .card-client {
@@ -403,170 +394,17 @@ footer {
 }
 
 .dasar {
-	background-color: #6692BF;
+	background-color: #6692bf;
 }
 
-
 .kirimemail-form-body {
-	font-family: "Nunito",
-		sans-serif;
+	font-family: "Nunito", sans-serif;
 	font-weight: 700;
-	background-color: #3A4260 !important;
+	background-color: #6692bf !important;
 	display: block;
 	color: white;
 	padding: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* container */
 
@@ -670,8 +508,7 @@ footer {
 	/* font */
 	.h-baner,
 	#p-1 {
-		font-family: "Nunito",
-			sans-serif;
+		font-family: "Nunito", sans-serif;
 		font-size: 31px;
 		font-weight: 800;
 	}
@@ -744,6 +581,21 @@ footer {
 	.video-center {
 		margin-left: 29% !important;
 		margin-right: 29% !important;
+	}
+
+	.btn.tombol5 {
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		display: block;
+	}
+
+	.btn.tombol {
+		width: 140px;
+	}
+
+	.kirimemail-form-headline {
+		font-size: 4.2rem;
 	}
 }
 

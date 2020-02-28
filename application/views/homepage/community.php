@@ -176,7 +176,7 @@
                         </div>
 
                         <div class="form-controls">
-                            <button class="btn slate kirimemail-btn-submit">Submit</button>
+                            <button class="btn slate kirimemail-btn-submit .tombol">Submit</button>
                         </div>
                     </form>
 

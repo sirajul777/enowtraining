@@ -24,7 +24,7 @@
                 </div>
                 <div class="copyright">
                     &copy;
-                    <a href="<?= base_url(); ?>">EnglishNow 2020</a>
+                    <a href="<?= base_url(); ?>">Englisnowtrainingcentre</a>
 
                 </div>
 

@@ -11,5 +11,7 @@ class Homepage extends CI_Controller
         $this->load->view('homepage/landing');
         $this->load->view('template/foot');
         $this->load->view('template/footer');
+
+        redirect('index');
     }
 }

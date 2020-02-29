@@ -30,6 +30,11 @@
 }
 
 /* ! membuat tombol di tengah */
+.img-small {
+	max-height: 3rem;
+	max-width: 10rem;
+}
+
 .tombol {
 	margin-left: auto;
 	margin-right: auto;

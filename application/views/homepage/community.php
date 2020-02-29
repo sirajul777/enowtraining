@@ -161,15 +161,15 @@
 
 
                         <div class="kirimemail-custom-field">
-                            <dl class="form full">
-                                <dd><input name="subscriber_field_values_7644" placeholder="Nama" type="text" value="" required>
-                                </dd>
-                            </dl>
+                            <div class="form full">
+                                <dl><input name="subscriber_field_values_7644" placeholder="Nama" type="text" value="" required>
+                                </dl>
+                            </div>
 
 
-                            <dl class="form full">
-                                <dd><input name="email" placeholder="Email" type="email" required /></dd>
-                            </dl>
+                            <div class="form full">
+                                <dl><input name="email" placeholder="Email" type="email" required /></dl>
+                            </div>
 
 
                         </div>
@@ -194,7 +194,7 @@
                 <h3 class="h-contact center">Contact Us</h3>
             </div>
             <div class="col s12 center">
-                <a href="https://wa.me/6281316621562"><img class="responsive-img" src="<?= base_url('assets/'); ?>img/wa.png"></a>
+                <a href="https://wa.me/6281316621562"><img class="img-small" src="<?= base_url('assets/'); ?>img/wa.png"></a>
             </div>
         </div>
     </div>
